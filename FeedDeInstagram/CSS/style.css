@@ -1,0 +1,145 @@
+*{ 
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body  { 
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    min-width: 1024px;
+    max-width: 1400;
+    background: #fafafa;
+}
+
+nav { 
+    min-width: 1024px;
+    max-width: 1400;
+    width: 100%;
+    z-index: 1;
+    top:0;
+    left: 0;
+    border-bottom: solid #dbdbdb 1px;
+    background:#fafafa;
+}
+
+.nav-cont {
+    width: 80%;
+    margin: 0;
+    margin-left: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    position: sticky;
+}
+
+
+
+.cont-input {
+    
+    height: 28px;
+    border: solid 1px #dbdbdb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fafafa;
+    padding:0px;
+   
+}
+
+.cont-input input {
+    border: 0;
+    outline:none;
+    background: #fafafa;
+}
+
+.iconos svg {
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+
+.iconos .small-logo {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 300px;
+    cursor: pointer;
+}
+
+.container {
+    width: 40vw;
+    height: 80vh;
+    margin: 20px;
+    margin-left: 120px;
+    display: flex;
+    margin-top:-40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 1000px;
+    background-color: #fafafa;
+    height: 500px;
+    margin: 1em;
+}
+
+.stories{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding-left: 30x;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.second-container {
+    padding: 10px 10px;
+    width: 55vw;
+    height: 80vh;
+    margin-top:-480px;
+    margin-left:-1200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.post-header {
+    background: #fafafa;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 15px;
+}
+
+
+.first-post {
+    border: 1px solid #c1c1c1;
+    margin: 1em;
+}
+
+.third-container {
+    padding: 10px 10px;
+    width: 55vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.post-header {
+    background: #fafafa;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 15px;
+}
+
+
+.second-post {
+    border: 1px solid #c1c1c1;
+    margin: 1em;
+}
