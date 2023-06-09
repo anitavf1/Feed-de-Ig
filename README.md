@@ -1,2 +1,2 @@
 # Feed-de-Ig
-Recreación del instagram de Ig, utilizando html y css
+Recreación del feed de Ig, utilizando html y css.
